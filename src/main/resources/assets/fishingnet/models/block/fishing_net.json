@@ -1,12 +1,13 @@
 {
 	"credit": "Made with Blockbench",
+	"render_type": "cutout",
 	"textures": {
-		"1": "fishing_net_bottom",
-		"2": "fishing_net_front",
-		"3": "fishing_net_handles",
-		"4": "fishing_net_side",
-		"5": "fishing_net_top",
-		"particle": "fishing_net_back"
+		"1": "fishingnet:block/fishing_net_bottom",
+		"2": "fishingnet:block/fishing_net_front",
+		"4": "fishingnet:block/fishing_net_side",
+		"5": "fishingnet:block/fishing_net_top",
+		"6": "fishingnet:block/handle",
+		"particle": "fishingnet:block/fishing_net_back"
 	},
 	"elements": [
 		{
@@ -24,16 +25,18 @@
 			}
 		},
 		{
-			"name": "net_handle",
-			"from": [2, 5, 8],
-			"to": [14, 15, 8],
-			"rotation": {"angle": 0, "axis": "y", "origin": [-2, 13, 9]},
+			"from": [4, 10, 7],
+			"to": [12, 12, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 10, 6]},
 			"faces": {
-				"north": {"uv": [2, 1, 14, 13], "texture": "#3"},
-				"south": {"uv": [2, 1, 14, 13], "texture": "#3"},
-				"up": {"uv": [4, 4, 11, 6], "texture": "#3"}
+				"north": {"uv": [0, 6, 8, 8], "texture": "#6"},
+				"east": {"uv": [8, 0, 11, 2], "texture": "#6"},
+				"south": {"uv": [0, 8, 8, 10], "texture": "#6"},
+				"west": {"uv": [8, 2, 11, 4], "texture": "#6"},
+				"up": {"uv": [8, 3, 0, 0], "texture": "#6"},
+				"down": {"uv": [8, 3, 0, 6], "texture": "#6"}
 			}
 		}
 	],
-	"render_type": "solid"
+	"display": {}
 }

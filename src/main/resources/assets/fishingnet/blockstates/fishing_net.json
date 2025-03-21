@@ -1,6 +1,5 @@
 {
-  "multipart": [
-    { "apply": { "model": "fishingnet:block/fishing_net_base" } },
-    { "apply": { "model": "fishingnet:block/fishing_net_handles" } }
-  ]
+  "variants": {
+    "": { "model": "fishingnet:block/fishing_net" }
+  }
 }
