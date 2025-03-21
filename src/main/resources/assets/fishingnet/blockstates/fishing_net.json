@@ -1,5 +1,6 @@
 {
   "variants": {
-    "": { "model": "fishingnet:block/fishing_net" }
+    "waterlogged=false": { "model": "fishingnet:block/fishing_net" },
+    "waterlogged=true":  { "model": "fishingnet:block/fishing_net" }
   }
 }
