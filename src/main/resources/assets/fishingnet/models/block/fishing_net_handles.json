@@ -1,0 +1,21 @@
+{
+  "credit": "Made with Blockbench",
+  "textures": {
+    "3": "fishing_net_handles",
+    "particle": "fishing_net_handles"
+  },
+  "elements": [
+    {
+      "name": "net_handle",
+      "from": [2, 5, 8],
+      "to": [14, 15, 8],
+      "rotation": { "angle": 0, "axis": "y", "origin": [-2, 13, 9] },
+      "faces": {
+        "north": { "uv": [2, 1, 14, 13], "texture": "#3" },
+        "south": { "uv": [2, 1, 14, 13], "texture": "#3" },
+        "up": { "uv": [4, 4, 11, 6], "texture": "#3" }
+      }
+    }
+  ],
+  "render_type": "cutout"
+}

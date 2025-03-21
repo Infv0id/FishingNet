@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "fishingnet",
+	"version": "${version}",
+	"name": "FishingNet",
+	"description": "Tired of fishing? Get a fishing Net!",
+	"authors": [
+		"Infvoid"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/fishingnet/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"infvoid.fishingnet.FishingNetMod"
+		],
+		"fabric-datagen": [
+			"infvoid.fishingnet.FishingNetDataGenerator"
+		],
+		"client": [
+			"infvoid.fishingnet.FishingNetClient"
+		]
+	},
+	"mixins": [
+		"fishingnet.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
